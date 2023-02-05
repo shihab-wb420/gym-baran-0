@@ -1,0 +1,55 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root{
+  --dark:#264373;
+  --purple:#6765F0;
+  --container_bg:rgba(100, 98, 240, 1);
+}
+
+.button {
+  color: #fff;
+  background: var(--dark);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+#body_bg{
+  position: absolute;
+  z-index: -999;
+  background: rgb(211,137,255);
+  background: rgb(243,180,17);
+background: linear-gradient(40deg, rgba(243,180,17,0.059259673695505444) 33%, rgba(211,137,255,0.15288571958188657) 54%);
+  background-repeat: no-repeat;
+  filter:blur(14px);
+  height: 100% !important;
+  width: 100% !important ;
+  
+}
+
+.navbar_container{
+ background: #fff;
+}
+.mobile-menu{
+  position: absolute;
+  background: #fff;
+  padding: 14px;
+  margin-top: 15.5em ;
+  right: 0;
+}
+
+
+
+.home_container{
+   height: 100vh;
+   width: 100%;
+   background: ;
+}
+
