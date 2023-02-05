@@ -11,7 +11,7 @@ const Staticbar = ()=>{
      staticData?.map((item)=>{
         const {id,title,iconPath} = item;
        return(
-        <div className="flex p-3 ">
+        <div key={id} className="flex p-3 ">
           <div className="flex items-center py-3 px-5 mr-2 bg-white bg-opacity-30 rounded-xl text-white w-20 h-20"> 
              <img src={`./images/${iconPath}`} alt={""}/>
           </div>
