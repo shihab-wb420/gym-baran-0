@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 const Layout = ({children})=>{
   
   return(
-    <div  className=" border border-red-500">
+    <div  className="">
       <div id="body_bg"/>
       <div className="lg:p-5 max-w-screen-sm lg:max-w-screen-2xl  mx-auto">
         <Navbar/>
